@@ -109,8 +109,20 @@ body{
 
 .man {
     display: flex;
-    justify-content: space-between;
-    padding: 0 36% 0 36%;
+    justify-content: center;
+
+}
+
+
+.imagenTitulo img{
+    width:50%;
+    height:30%;
+    min-width: 450px;
+    min-height: 60px;
+}
+
+.botonAdoptar{
+    padding: 30px;
 }
 
 .botonAdoptar a{
@@ -151,7 +163,6 @@ h1{
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
-
 }
 
 h2{
@@ -162,6 +173,17 @@ h2{
     font-style: normal;
     font-size: 40px;
 
+}
+
+.nuestrosPeludos h1{
+    text-align: center;
+    color: #314652;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding-top: 20px;
+    align-items: center;
 }
 
 .botonAdoptar{
@@ -188,11 +210,6 @@ h2{
 
 .merecenHogar{
     padding-bottom: 20px;
-}
-
-.nuestrosPeludos h1{
-    padding-top: 20px;
-    align-items: center;
 }
 
 .textoAlbum{
@@ -227,6 +244,7 @@ h2{
 
 .contenedor1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 25px;
 }
@@ -242,6 +260,8 @@ h2{
 .contenedor1 img{
     border-radius: 90px;
     transition: transform 0.3s ease;
+    width: 100px;
+    height: 75px;
 }
 
 .contenedor1 img:hover {
@@ -273,7 +293,7 @@ h3{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 45px;
     margin: 0;
 }
 
@@ -327,28 +347,45 @@ h3{
     background-color: rgba(17, 17, 121, 0.226);
 }
 
+.opiniones h3{
+    font-size: 40px;
+}
+
 .comentarios {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: rgba(17, 17, 121, 0.226);
+}
+
+.comentarios1{
+    min-width: 400px;
+}
+.comentarios2{
+    min-width: 400px;
+}
+.comentarios3{
+    min-width: 400px;
 }
 
 
 
 .comentarios1{
-    padding-left: 40px;
+    padding-left: 2.5%;
+    padding-right: 2%;
     width: 25%;
-    display: flex;
-    justify-content: center;
+
 }
 
 .comentarios2{
-    padding-left: 40px;
+    padding-left: 2.5%;
+    padding-right: 2%;
     width: 25%;
 }
 
 .comentarios3{
-    padding-left: 40px;
+    padding-left: 2.5%;
+    padding-right: 2%;
     width: 25%;
 }
 
@@ -357,13 +394,28 @@ h3{
     height: 450px;
 }
 
+.cartas .card{
+    width: 17rem;
+}
+
 .carousel-control-prev span,
 .carousel-control-next span{
-    background-color: rgb(211, 128, 223);
+    background-color: transparent;
 }
+
 
 .card-body{
     background-color: rgb(211, 128, 223);
+}
+
+.dudasConsultas h4{
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #314652;
+    padding-top: 40px;
 }
 
 
@@ -409,6 +461,68 @@ h3{
       .buttonsRedes a {
         font-size: 28px;
       }
+
+      .mitades {
+        margin-right: 0;
+    }
+    .mitad1{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+
+    .contenedor1 img{
+        width: 85px;
+        height: 60px;
+    }
+
+    .descripcionIntro{
+        font-size: 24px;
+    }
+
+    .botonAdoptar a{
+        font-size: 22px;
+    }
+
+    .merecenHogar{
+        font-size: 30px;
+    }
+    
+    .textoAlbum{
+        font-size: 21px;
+    }
+
+    .nuestrosPeludos h1{
+        font-size: 35px;
+    }
+
+    .dudasConsultas h4{
+        font-size: 33px;
+        padding-top: 30px;
+    }
+
+    .cartas .card{
+        width: 16rem;
+    }
+    .comentarios1{
+        padding-left: 5%;
+
+    }
+    
+    .comentarios2{
+        padding-left: 5%;
+    }
+    
+    .comentarios3{
+        padding-left: 5%;
+    }
+
+    .opiniones h3{
+        font-size: 35px;
+    }
+    .card .card-text{
+        font-size: 16px;
+    }
+
 }
 
 
@@ -429,6 +543,60 @@ h3{
       .margenAmpliadoIzquierdo{
         margin-left: 10px;
       }
+      .contenedor1 img{
+        width: 75px;
+        height: 50px;
+    }
+    .descripcionIntro{
+        font-size: 22px;
+    }
+
+    .botonAdoptar{
+        padding: 10px;
+    }
+
+    .botonAdoptar a{
+        font-size: 20px;
+    }
+
+    .merecenHogar{
+        font-size: 25px;
+    }
+    
+    .textoAlbum{
+        font-size: 19px;
+    }
+    .nuestrosPeludos h1{
+        font-size: 30px;
+    }
+    .dudasConsultas h4{
+        font-size: 26px;
+        padding-top: 20px;
+    }
+    .cartas .card{
+        width: 14rem;
+    }
+
+    .comentarios1{
+        padding-left: 9%;
+
+    }
+    
+    .comentarios2{
+        padding-left: 9%;
+    }
+    
+    .comentarios3{
+        padding-left: 9%;
+    }
+
+    .opiniones h3{
+        font-size: 30px;
+    }
+    .card .card-text{
+        font-size: 14px;
+    }
+
 }
 
 

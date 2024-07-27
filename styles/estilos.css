@@ -3,6 +3,14 @@
 
 body{
     margin: 0;
+    background-image: url("../images/fondoPastel4.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+nav {
+    position: relative;
 }
 
 .bodystyle {
@@ -93,7 +101,6 @@ body{
 #unaIntro {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgba(189, 206, 96, 0.705);
     text-align: center;
 }
  
@@ -204,7 +211,7 @@ h2{
 
 .nuestrosPeludos{
     margin-top: 40px;
-    background-color: rgba(207, 188, 190, 0.452);
+    background-color: rgba(202, 144, 150, 0.452);
     border-radius: 100px;
 }
 
@@ -426,7 +433,7 @@ h3{
     padding-top: 20px;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.811);
-    background-color: rgba(207, 188, 190, 0.452);
+    background-color: rgba(29, 27, 27, 0.452);
 }
 
 
@@ -916,14 +923,19 @@ h3{
 
 
 #bodyAdopciones{
-    margin: 0;
     padding: 0;
+    background-image: url("../images/fondoPastel4.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
 }
+
+
 
 .seccionAdopciones{
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
-    background-position: 50% 57%;
+    background-position: center center;
     background-size: 30vw 22vw;
     background-color: rgba(207, 188, 190, 0.452);
     padding-bottom: 0.4%;
@@ -931,11 +943,13 @@ h3{
 
 .seccionAdopciones .card{
     border-radius: 20px;
+    width: 15rem;
+    margin-bottom: 30px;
 }
 
 #Estilo{
-    margin-bottom: 30px;
-    padding-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 30px;
     font-family: "Architects Daughter", cursive;
     font-weight: 600;
     font-style: normal;
@@ -946,19 +960,33 @@ h3{
     animation-direction: alternate-reverse;
 }
 
+
 .primeraFila{
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.botoncitoAdopciones{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.botoncitoAdopciones a{
+    background-color: #bc781f;
+}
+
+.botoncitoAdopciones a:hover{
+    background-color: #bd863d;
 }
 
 .segundaFila{
     margin-top: 20px;
-    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:space-evenly;
 }
 
 
@@ -967,15 +995,45 @@ h3{
 }
 
 .primeraFila .card-body{
-    background-image: linear-gradient(to bottom, #d6baded1, #6a4777d1);
+    background-color: #ba9c76;
     font-family: "Kanit", sans-serif;
 }
 
 .segundaFila .card-body{
-    background-image: linear-gradient(to bottom, #d6baded1, #6a4777d1);
+    background-color: #ba9c76;
     font-family: "Kanit", sans-serif;
 }
 
+@media (max-width: 1100px){
+    #Estilo{
+        font-size: 45px;
+    }
+    .seccionAdopciones .card{
+        width: 14rem;
+        margin-bottom: 20px;
+    }
+
+    .segundaFila{
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 700px){
+    #Estilo{
+        font-size: 40px;
+    }
+    .seccionAdopciones .card{
+        width: 13rem;
+    }
+    .segundaFilaUno{
+        margin-right: 20px;
+    }
+}
 
 
 /* ------------------------------------------------------------------------------------------------------ */
@@ -1043,10 +1101,9 @@ h3{
     font-weight: 500;
     font-style: italic;
     font-size: 25px;
-    
-    
-
 }
+
+
 .RefuDescrip {
     width: 70%;
     display: flex;
@@ -1056,7 +1113,7 @@ h3{
 
 .RefuDescrip2 {
     padding-right: 5%;
-    padding-top: 20px;
+    padding-top: 0px;
     text-align: justify;
 }
 

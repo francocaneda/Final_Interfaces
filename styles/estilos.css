@@ -150,7 +150,6 @@ nav {
     border: 4px dashed aquamarine;
 }
 
-
 .botonContacto {
     text-align: center;
     display: flex;
@@ -169,7 +168,6 @@ nav {
     background-color: rgba(0, 0, 0, 0.543);
     color: black;
 }
-
 
 h1{
     text-align: center;
@@ -233,7 +231,6 @@ h2{
     font-size: 22px;
 }
 
-
 .mitades {
     width: 80%;
     margin: auto;
@@ -254,8 +251,6 @@ h2{
     margin-right: 30px;
     width: 60%;
 }
-
-
 
 .contenedor1 {
     display: flex;
